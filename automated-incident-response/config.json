@@ -1,0 +1,8 @@
+{
+  "monitoring_target": "application.log",
+  "log_file": "incident_response.log",
+  "check_interval_seconds": 10,
+  "recovery_action": "echo 'Simulating restart of the web service... Service is now OK.'",
+  "escalation_contact": "devops-team@example.com"
+}
+
